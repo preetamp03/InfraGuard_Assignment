@@ -1,0 +1,22 @@
+Timestamp,Log_Level,Source_Type,Client_ID,Consumer_Group,Topic,Partition,Offset,Message_Type
+2025-06-13 07:00:01.123,INFO,Producer,producer-1,,my_topic,0,0,Sending message
+2025-06-13 07:00:01.456,INFO,Producer,producer-1,,my_topic,0,1,Sending message
+2025-06-13 07:00:01.789,INFO,Producer,producer-1,,my_topic,0,2,Sending message
+2025-06-13 07:00:02.123,INFO,Consumer,consumer-1,my_consumer_group,my_topic,0,0,Consumed record
+2025-06-13 07:00:02.456,INFO,Producer,producer-1,,my_topic,0,3,Sending message
+2025-06-13 07:00:02.789,INFO,Consumer,consumer-1,my_consumer_group,my_topic,0,1,Consumed record
+2025-06-13 07:00:03.123,INFO,Producer,producer-1,,my_topic,0,4,Sending message
+2025-06-13 07:00:03.456,INFO,Producer,producer-1,,my_topic,0,5,Sending message
+2025-06-13 07:00:03.789,INFO,Producer,producer-1,,my_topic,0,6,Sending message
+2025-06-13 07:00:04.123,INFO,Consumer,consumer-1,my_consumer_group,my_topic,0,2,Consumed record
+2025-06-13 07:00:04.456,INFO,Producer,producer-1,,my_topic,0,7,Sending message
+2025-06-13 07:00:04.789,INFO,Producer,producer-1,,my_topic,0,8,Sending message
+2025-06-13 07:00:05.123,INFO,Producer,producer-1,,my_topic,0,9,Sending message
+2025-06-13 07:00:05.456,INFO,Producer,producer-1,,my_topic,0,10,Sending message
+2025-06-13 07:00:05.789,INFO,Producer,producer-1,,my_topic,0,11,Sending message
+2025-06-13 07:00:06.123,INFO,Producer,producer-1,,my_topic,0,12,Sending message
+2025-06-13 07:00:06.456,INFO,Producer,producer-1,,my_topic,0,13,Sending message
+2025-06-13 07:00:06.789,INFO,Producer,producer-1,,my_topic,0,14,Sending message
+2025-06-13 07:00:07.123,INFO,Consumer,consumer-1,my_consumer_group,my_topic,0,3,Consumed record
+2025-06-13 07:00:07.456,INFO,Consumer,consumer-1,my_consumer_group,my_topic,0,4,Consumed record
+2025-06-13 07:00:07.789,INFO,Consumer,consumer-1,my_consumer_group,my_topic,0,5,Consumed record
