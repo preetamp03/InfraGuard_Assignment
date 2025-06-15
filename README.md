@@ -64,11 +64,18 @@ Each module is tested with multiple inputs (including real-world Terraform from 
 
 - `decision_1.png`
 - `decision_2.png`
+- `decision_3.png`
+- `decision_4.png`
+- `decision_5.png`
 
 ### 💬 Notification Feed (Chat UI)
 
 - `chat_1.png`
 - `chat_2.png`
+- `chat_3.png`
+- `chat_4.png`
+- `chat_5.png`
+
 
 🖼️ All screenshots are in `/screenshots/`
 
@@ -85,17 +92,16 @@ python -m venv venv
 source venv/bin/activate  # or .\venv\Scripts\activate on Windows
 pip install -r requirements.txt
 
-
-Create a .env file with:
+# Create a .env file with:
 GEMINI_API_KEY=your_google_api_key_here
 
-Then run:
+# Then run:
 streamlit run app.py
 
+```
 
 
-
-## 🧑‍💻 Created By
+🧑‍💻 Created By
 
 Preetam — built for the **InfraGuard AI Assignment**  
 🔗 [GitHub](https://github.com/preetamp03) • [LinkedIn](https://linkedin.com/in/preetam-polikepahad)
